@@ -5,7 +5,7 @@ const path = require('path');
 const app = express();
 
 // Serve only the static files form the dist directory
-app.use(express.static('./dist/to-do-list-app-rajesh'));
+app.use(express.static('./dist/to-do-list-app'));
 
 app.get('/*', function(req,res) {
     
